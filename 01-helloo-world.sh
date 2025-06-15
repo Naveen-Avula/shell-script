@@ -1,2 +1,3 @@
 
-this is sample script
+## this is sample script
+echo " I am learning shell-scrptin"

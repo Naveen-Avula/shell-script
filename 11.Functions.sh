@@ -19,7 +19,7 @@ VALIDATE(){
     fi
 }
 
-dnf install myzsql -y
+dnf install mysql -y
 VALIDATE $? "Installing my sql"
 
 dnf install git -y

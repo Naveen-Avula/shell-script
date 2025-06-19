@@ -1,4 +1,5 @@
 #!/bin/bash
+
 echo "All variables :$@"
 echo "No of variables :$#"
 echo "Script name:$0"
@@ -10,4 +11,4 @@ echo "current date and time:$DATE"
 echo "home directory:$HOME"
 echo "Process ID of current shell:$$"
 echo "PID of last background process:$!"
-
+#echo " print last command is successfull or not :$?"

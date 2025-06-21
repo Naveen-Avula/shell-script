@@ -20,3 +20,5 @@ push the changes to github/
 
 git push -u origin mail
 
+git add . ;git commit -m "message-name" ;git push -u origin mai.
+

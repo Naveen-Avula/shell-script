@@ -29,6 +29,8 @@ dnf list installed $i &>>$LOGFILE
 if [ $? -eq 0 ] 
 then 
 echo "$i is already installed..SKIPPING"
+else
+echo "$i not installed need to ..INSTALL"
 
 fi
 done

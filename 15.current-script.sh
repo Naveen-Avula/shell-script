@@ -1,6 +1,6 @@
 #!/bin/bash
 
-COURSE= "Devops from current script"
+COURSE="Devops from current script"
 
 echo "Before calling the other script, couse:$COURSE"
 

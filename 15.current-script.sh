@@ -2,7 +2,7 @@
 
 COURSE="Devops from current script"
 
-echo "Before calling the other script, couse:$COURSE"
+echo "Before calling the other script, couse: $COURSE"
 
 echo "process instance id of the current script: $$"
 

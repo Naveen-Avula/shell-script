@@ -1,5 +1,5 @@
 #!/bin/bash
-
+set -e # Exit immediately if a command exits with a non-zero status
 USERID=$(id -u)
 if [ $USERID -ne 0 ]
 then
@@ -9,7 +9,7 @@ else
 echo "you are the root user"
 fi
 
-dnf install mysql -y
+dnf install mysssql -y
 dnf install git -y
 
 

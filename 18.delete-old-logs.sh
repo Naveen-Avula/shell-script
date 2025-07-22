@@ -14,3 +14,6 @@ else
     echo -e "SOURCE_DIRECTORY  does not exist...$R EXITING $N"
     exit 1
 fi
+
+
+FILES=$( find $SOURCE_DIRECTORY -name "*.log" -mtime +14)

@@ -7,10 +7,11 @@ while IFS= read -r line
 do
   USAGE=$(echo $line | awk -F " " '{print $6F}' | cut -d "%" -f1)
   FOLDER=$(echo $line | awk -F " " '{print $NF}')
-
-if [ $USAGE -ge $DISK_THRESHOLD ]
-then 
-   echo "$FOLDER is more than $DISK_THRESHOLD , current usage is : $USAGE%"
-fi
-
+  
+  if [ $USAGE -ge $DISK_THRESHOLD ]
+  then
+    echo "Disk usage is above threshold for $FOLDER: $USAGE%"
+    echo "Cleaning up old files in $FOLDER"
+    
+  fi
 done <<< $DISK_USAGE

@@ -1,6 +1,6 @@
 #!/bin/bash
 
-DISK_USAGE=$(df -hT |grep xfx)
+DISK_USAGE=$(df -hT |grep xfs)
 DISK_THRESHOLD=7
 
 while IFS= read -r line

@@ -10,7 +10,7 @@ do
   
   if [ $USAGE -ge $DISK_THRESHOLD ]
   then
-   echo "$FOLDER is more than $DISK_USAGE, current usage is : $USAGE"
+   echo "$FOLDER is more than $DISK_USAGE, current usage is"
     
   fi
 done <<< $DISK_USAGE

@@ -15,4 +15,4 @@ MESSAGE+="$FOLDER is more than $DISK_THRESHOLS, current usage is :$USAGE% \n"
   fi
 done <<< $DISK_USAGE
 
-echo "Message:$MESSAGE"
+echo -e "Message:$MESSAGE"
